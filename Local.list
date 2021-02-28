@@ -1,0 +1,14 @@
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.com.cn
+USER-AGENT,cloudd*
+USER-AGENT geod*
+USER-AGENT,nsurlsessiond*
+USER-AGENT,AppStore*
+USER-AGENT,com.apple.appstored*
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,autonavi.com
+DOMAIN,api.weather.com
+DOMAIN-SUFFIX,ctyunapi.cn
