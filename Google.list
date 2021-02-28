@@ -3,7 +3,6 @@ DOMAIN-SUFFIX,google.com.hk
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,googleusercontent.com
-DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,googlevideo.com
 USER-AGENT,com.google.ios.youtube
