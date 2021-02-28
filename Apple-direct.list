@@ -1,7 +1,7 @@
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud.com.cn
 USER-AGENT,cloudd*
-USER-AGENT geod*
+USER-AGENT,geod*
 USER-AGENT,nsurlsessiond*
 USER-AGENT,AppStore*
 USER-AGENT,com.apple.appstored*
