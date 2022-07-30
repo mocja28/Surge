@@ -1,17 +1,18 @@
 [General]
 all-hybrid = true
+allow-wifi-access = true
+proxy-test-url = http://cp.cloudflare.com//generate_204
+internet-test-url = http://wifi.vivo.com.cn/generate_204
+ipv6 = true
+allow-hotspot-access = true
 external-controller-access = bendan.0582@0.0.0.0:6170
 http-api = bendan.0582@0.0.0.0:6171
 http-api-tls = false
 http-api-web-dashboard = true
-loglevel = warning
-allow-wifi-access = true
-ipv6 = true
-allow-hotspot-access = true
-internet-test-url = http://wifi.vivo.com.cn/generate_204
-proxy-test-url = http://cp.cloudflare.com//generate_204
-test-timeout = 5
-dns-server = 223.5.5.5, system
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local, *.crashlytics.com, *.edu.cn, *.evernote.com, *.yinxiang.com
+always-real-ip = *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com
+hijack-dns = 8.8.8.8:53, 8.8.4.4:53
+dns-server = system, 119.29.29.29, 223.5.5.5, 223.6.6.6
 
 [Replica]
 hide-apple-request = 1
