@@ -1,0 +1,19 @@
+[General]
+all-hybrid = true
+external-controller-access = bendan.0582@0.0.0.0:6170
+http-api = bendan.0582@0.0.0.0:6171
+http-api-tls = false
+http-api-web-dashboard = true
+loglevel = warning
+allow-wifi-access = true
+ipv6 = true
+allow-hotspot-access = true
+internet-test-url = http://wifi.vivo.com.cn/generate_204
+proxy-test-url = http://cp.cloudflare.com//generate_204
+test-timeout = 5
+dns-server = 223.5.5.5, system
+
+[Replica]
+hide-apple-request = 1
+hide-crash-reporter-request = 1
+hide-udp = 0
